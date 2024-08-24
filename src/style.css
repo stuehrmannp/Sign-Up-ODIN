@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    height: 1000px;
+}
+
+section.logo-section {
+    background-image: url('./img/photo.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 55vw;
+    height: 100vh;
+    
+}
+
+section .logo-content {
+    width: 100%;
+    height:auto;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Norse-Bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 175px;
+    padding: 20px 0 20px 0;
+}
+
+.logo-content img {
+    height: 120px;
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+}
+
+main .main-info {
+    padding-top: 150px;
+    padding-left: 50px;
+    margin-right: 50px;
+    
+    width: 83%;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.main-info h3 + h3 {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+/* Forms */
+
+.form-box {
+   width: 100%;
+   height: 33vh;
+   background-color: white; 
+   -webkit-box-shadow: 0px 6px 13px -3px rgba(0,0,0,0.15);
+   -moz-box-shadow: 0px 6px 13px -3px rgba(0,0,0,0.15);
+   box-shadow: 0px 6px 13px -3px rgba(0,0,0,0.15);
+}
+
+.form-box h3 {
+    padding-left: 50px;
+    padding-top: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.form-box form {
+    padding-left: 50px;
+    padding-top: 10px;
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+form > div {
+    padding-top: 22px;
+    display: flex;
+
+}
+
+form > div > div.label-styling {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+
+div.label-styling > input {
+    padding: 6px 25px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 1px solid lightskyblue;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+div.label-styling > label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(114, 114, 114);
+    letter-spacing: 1.1px;
+    padding-bottom: 3px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 14px; 
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background-color: #596D48;
+}
+
+p {
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p span {
+    color: #596D48;
+    font-weight: bold;
+}
